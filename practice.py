@@ -1,4 +1,4 @@
-print("hello World")
+'''print("hello World")
 print("Mary's cosmetics")
 print('신씨가 소리질렀다."도둑이야".')
 print('"C:\Windows"')
@@ -22,10 +22,21 @@ print(num_int+1, type(num_int))
 현재가 = 50000
 PER = 15.79
 
+print(시가총액, type(시가총액))
+print(현재가, type(현재가))
+print(PER, type(PER))
 
+s = "hello"
+t = "python"
+print(s+"!", t)
 
+a = "132"
+print(type(a))
+num_str = "720"
+ 
+num_int = int(num_str)
+print(num_int+1,type(num_int))'''
 
-
-
-print('3')
-
+num = 100
+result = str(num)
+print(result, type(result))
