@@ -40,8 +40,6 @@ while True:
         else:
             v += i
     n = 0
-    print(real_list)
-    print(research_list)
 
     # 총단어수 검색된횟수 검색된라인수 구하기
     # 검색된 횟수
@@ -51,15 +49,13 @@ while True:
     line_va = 0
     for va in real_list:
         if va in research_list:
+            word += 1
             line_va = real_list.index(va)
             print(str(research_list)+"를 찾았습니다.")
-
             print("총 단어 수:"+str(count))
             print("검색된 라인수:"+str(line_va+1))
+            print("검색된 횟수:"+str(word))
             break
-        for val in real_list:
-            word += 1
-            print("검색된 횟수:"+str(line_va+1))
 
         else:
             print("찾을수가 없습니다.")
